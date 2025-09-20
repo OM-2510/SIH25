@@ -12,7 +12,7 @@ import DietitianProfile from "../Pages/DietitianProfile";
 =======
 import BookAppointment from "../Components/User/BookAppointment";
 import Appointment from "../Components/Dietian/Appointment";
->>>>>>> 834f53853df32a4cd243a2e25c6ee80f78b0729b
+import DietRecommendationPage from "../Pages/DieteDecomndetaionPage";
 
 export default function AppRoutes() {
   return (
@@ -39,6 +39,7 @@ export default function AppRoutes() {
         {/* User routes */}
         <Route path="/book" element={<BookAppointment />} />
           <Route path="/appointment" element={<Appointment />} />
+          <Route path="/aidiet" element={<DietRecommendationPage />} />
         
 >>>>>>> 834f53853df32a4cd243a2e25c6ee80f78b0729b
 

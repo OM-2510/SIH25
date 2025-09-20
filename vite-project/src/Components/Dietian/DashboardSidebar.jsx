@@ -13,9 +13,9 @@ const navigation = [
 ];
 
 export function DashboardSidebar() {
-const user = JSON.parse(localStorage.getItem("user")) || {};
-const userName = user.name || "User";
-const userRole = user.role || "Role";
+  const user = JSON.parse(localStorage.getItem("user")) || {};
+  const userName = user.name || "User";
+  const userRole = user.role || "Role";
 
   return (
     <div className="flex flex-col w-64 min-h-screen bg-gradient-to-b from-emerald-600 via-emerald-700 to-emerald-800 text-white shadow-xl">
